@@ -13,5 +13,5 @@ if module get error when build this app just change the scheme and build again t
 
 ## Authors
 
-- [@edooktarifa]
+- [@edooktarifa](https://github.com/edooktarifa/TVMovies)
 
