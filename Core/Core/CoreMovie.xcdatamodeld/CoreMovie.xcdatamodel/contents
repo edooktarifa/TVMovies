@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G527" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="NowPlayingMovie" representedClassName="NowPlayingMovie" syncable="YES" codeGenerationType="class">
+        <attribute name="nowPlayingMovieDetail" optional="YES" attributeType="String"/>
+        <attribute name="nowPlayingMovieImage" optional="YES" attributeType="String"/>
+        <attribute name="nowPlayingMovieTitle" optional="YES" attributeType="String"/>
+        <attribute name="overview" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PopulerMovie" representedClassName="PopulerMovie" syncable="YES" codeGenerationType="class">
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="populerMovieDetail" optional="YES" attributeType="String"/>
+        <attribute name="populerMovieImage" optional="YES" attributeType="String"/>
+        <attribute name="populerMovieTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TopRateMovie" representedClassName="TopRateMovie" syncable="YES" codeGenerationType="class">
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="topRatedDetail" optional="YES" attributeType="String"/>
+        <attribute name="topRatedTitle" optional="YES" attributeType="String"/>
+        <attribute name="topRateImage" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UpcomingMovie" representedClassName="UpcomingMovie" syncable="YES" codeGenerationType="class">
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="upcomingMovieImage" optional="YES" attributeType="String"/>
+        <attribute name="upcomingMovieTitle" optional="YES" attributeType="String"/>
+        <attribute name="upcomningMovieDetail" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="NowPlayingMovie" positionX="-36" positionY="36" width="128" height="89"/>
+        <element name="PopulerMovie" positionX="-18" positionY="63" width="128" height="89"/>
+        <element name="TopRateMovie" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="UpcomingMovie" positionX="-54" positionY="9" width="128" height="89"/>
+    </elements>
+</model>

@@ -1,0 +1,45 @@
+platform :ios, '10.0'
+
+use_frameworks!
+
+workspace 'TVMoviesModular'
+
+def application_pods
+  pod 'Alamofire', '~> 5.4'
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
+  pod 'netfox'
+  pod 'SkeletonView'
+  pod 'Swinject'
+  pod 'Kingfisher', '~> 6.3.1'
+  pod 'NVActivityIndicatorView'
+end
+
+target 'TVMovies' do
+	project '../TVMovies/TVMovies'
+	application_pods
+end
+
+
+
+target 'NetworkServices' do
+	project '../NetworkServices/NetworkServices'
+	application_pods
+end
+
+target 'Core' do
+	project '../Core/Core'
+	application_pods
+end
+
+target 'Common' do
+  project '../Common/Common'
+  application_pods
+end
+
+target 'Domain' do
+  project '../Domain/Domain'
+  application_pods
+end
+
+

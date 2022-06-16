@@ -1,0 +1,6 @@
+framework module Pods_TVMovies {
+  umbrella header "Pods-TVMovies-umbrella.h"
+
+  export *
+  module * { export * }
+}
